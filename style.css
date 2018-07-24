@@ -55,15 +55,57 @@ header .headline {
   color: #fff;
 }
 
-.main {
-  width: 840px;
+main {
+  width: 800px;
   margin: 0 auto;
+  padding: 70px 0;
 }
-
 .blog {
-  width: 600px;
+  width: 540px;
+  float: left;
+  margin-right: 30px;
+}
+.blog-box{
+  padding-top: 50px;
+}
+.blog-image{
+  height: 180px;
   float: left;
 }
+.blog-headline{
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+.blog-item{
+  padding-bottom: 20px;
+  margin-bottom: 20px
+  border-bottom: 1px solid #f7f7f7;
+}
+.blog-text-headline{
+  padding-bottom: 15px;
+}
+.blog-text {
+  padding:30px 0 0 25px;
+  float: left;
+}
+.blog-date{
+  display: inline-block;
+  font-size: 12px;
+}
+.category{
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+.sidebar {
+  width: 230px;
+  float: left;
+}
+
 
 .sidebar {
   width: 240px;
@@ -78,5 +120,7 @@ footer {
   background-color: #848282;
 }
 .footer-text {
+  padding-top: 30px;
+  padding-left: 25px;
   color: #fff;
 }
